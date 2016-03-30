@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link href="css/application.css" rel="stylesheet">
+  <title>jQuery Example</title>
+</head>
+<body>
+  <!-- Header -->
+  <header>
+      <div class="container">
+          <div class="row">
+              <div class="col-lg-12">
+                  <img class="img-responsive" src="img/profile.png" alt="">
+                  <div class="intro-text">
+                      <span class="name">jQuery Example</span>
+                      <hr class="star-light">
+                      <span class="skills">jQuery practices</span>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </header>
+  <div class="body-content">
+    <form id="testForm" method="post">
+      <input name="name" id="name" placeholder="some input"></input>
+      <input name="item_id" type="hidden" id="item_id"></input>
+      <input type="submit" id="form-submit"></input>
+    </form>
+    <table id="display-text">
+      <thead>
+        <tr>
+          <td>ID</td>
+          <td>Text</td>
+          <td>Actions</td>
+        </tr>
+      </thead>
+      <tbody></tbody>
+    </table>
+  </div>
+
+  <script src="js/jquery.js"></script>
+  <script src="js/application.js"></script>
+</body>
+</html>
